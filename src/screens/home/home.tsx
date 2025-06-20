@@ -1,17 +1,15 @@
-import { Container, Header } from "@/src/components";
-import { ScrollView, Text, View } from "react-native";
+import { Header } from "@/src/components";
+import { ScrollView } from "react-native";
+import { Actions, Appoiments, RecentActivities, Tasks } from "./components";
 
 export const Home: React.FC = () => {
   return (
     <ScrollView className="bg-default-gray">
-      <Container className="bg-default-gray flex-1">
-        <View className="flex-1 justify-start items-start w-full flex-row">
-          <Header />
-        </View>
-        <View className="flex-1 w-full py-5">
-          <Text className="text-xl text-default-dark">Dashborad</Text>
-        </View>
-      </Container>
+      <Header />
+      <Appoiments />
+      <Tasks />
+      <Actions />
+      <RecentActivities />
     </ScrollView>
   )
 }

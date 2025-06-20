@@ -5,7 +5,7 @@ import { Image, Text, View } from "react-native"
 
 export const Initial: React.FC = () => {
   return (
-    <Container>
+    <Container className="bg-white" outsideClassName="bg-white">
       <View className="flex-1 items-center justify-center">
         <Image source={logo} width={312} height={77} />
         <Text className="text-center text-md font-light mt-4">Vamos entrar na sua conta!</Text>

@@ -17,7 +17,10 @@ module.exports = {
         "default-gray": "#E8E9F1",
         "default-grey": "#8F9098",
         "default-grey-400": "#71727A",
+        "default-green-100": "#00C49A",
         "default-green-200": "#33A885",
+        "default-green-500": "#0596A2",
+        "default-green-600": "#159274",
         "default-blue-400": "#2E8BFF"
       },
     },
